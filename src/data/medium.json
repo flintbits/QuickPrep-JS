@@ -1,0 +1,4958 @@
+[
+  {
+    "id": 101,
+    "title": "Implement deepClone handling arrays, objects, Dates, Maps, Sets, and circular refs.",
+    "difficulty": "Medium",
+    "description": "Implement deepClone handling arrays, objects, Dates, Maps, Sets, and circular refs.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementDeepcloneHandlingArraysObjectsDatesMapsSetsAndCircularRefs",
+    "starterCode": "function implementDeepcloneHandlingArraysObjectsDatesMapsSetsAndCircularRefs(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Implement a basic virtual DOM diff for two trees (simplified).",
+    "difficulty": "Medium",
+    "description": "Implement a basic virtual DOM diff for two trees (simplified).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementABasicVirtualDomDiffForTwoTreesSimplified",
+    "starterCode": "function implementABasicVirtualDomDiffForTwoTreesSimplified(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Build a function to evaluate arithmetic expressions (infix) with + - * / and parentheses.",
+    "difficulty": "Medium",
+    "description": "Build a function to evaluate arithmetic expressions (infix) with + - * / and parentheses.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "buildAFunctionToEvaluateArithmeticExpressionsInfixWithAndParentheses",
+    "starterCode": "function buildAFunctionToEvaluateArithmeticExpressionsInfixWithAndParentheses(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Implement an asyncPool(tasks, limit) to run promises with concurrency control.",
+    "difficulty": "Medium",
+    "description": "Implement an asyncPool(tasks, limit) to run promises with concurrency control.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAnAsyncpoolTasksLimitToRunPromisesWithConcurrencyControl",
+    "starterCode": "function implementAnAsyncpoolTasksLimitToRunPromisesWithConcurrencyControl(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Implement a scheduler that runs tasks at most N per second.",
+    "difficulty": "Medium",
+    "description": "Implement a scheduler that runs tasks at most N per second.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASchedulerThatRunsTasksAtMostNPerSecond",
+    "starterCode": "function implementASchedulerThatRunsTasksAtMostNPerSecond(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Implement a Least Recently Used (LRU) cache class properly.",
+    "difficulty": "Medium",
+    "description": "Implement a Least Recently Used (LRU) cache class properly.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementALeastRecentlyUsedLruCacheClassProperly",
+    "starterCode": "function implementALeastRecentlyUsedLruCacheClassProperly(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Implement a binary heap (min-heap) with insert and extract.",
+    "difficulty": "Medium",
+    "description": "Implement a binary heap (min-heap) with insert and extract.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementABinaryHeapMinHeapWithInsertAndExtract",
+    "starterCode": "function implementABinaryHeapMinHeapWithInsertAndExtract(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Implement top-K frequent elements from an array.",
+    "difficulty": "Medium",
+    "description": "Implement top-K frequent elements from an array.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementTopKFrequentElementsFromAnArray",
+    "starterCode": "function implementTopKFrequentElementsFromAnArray(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Implement K-th largest element using heap/quickselect.",
+    "difficulty": "Medium",
+    "description": "Implement K-th largest element using heap/quickselect.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementKThLargestElementUsingHeapQuickselect",
+    "starterCode": "function implementKThLargestElementUsingHeapQuickselect(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Flatten a deeply nested object to dot paths and unflatten back.",
+    "difficulty": "Medium",
+    "description": "Flatten a deeply nested object to dot paths and unflatten back.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "flattenADeeplyNestedObjectToDotPathsAndUnflattenBack",
+    "starterCode": "function flattenADeeplyNestedObjectToDotPathsAndUnflattenBack(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Implement a simple diff between two objects (added/removed/changed).",
+    "difficulty": "Medium",
+    "description": "Implement a simple diff between two objects (added/removed/changed).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleDiffBetweenTwoObjectsAddedRemovedChanged",
+    "starterCode": "function implementASimpleDiffBetweenTwoObjectsAddedRemovedChanged(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Implement a deep-equal that tolerates order-insensitive arrays of primitives.",
+    "difficulty": "Medium",
+    "description": "Implement a deep-equal that tolerates order-insensitive arrays of primitives.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementADeepEqualThatToleratesOrderInsensitiveArraysOfPrimitives",
+    "starterCode": "function implementADeepEqualThatToleratesOrderInsensitiveArraysOfPrimitives(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Given nested comments, print as a flat list with depth info.",
+    "difficulty": "Medium",
+    "description": "Given nested comments, print as a flat list with depth info.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "givenNestedCommentsPrintAsAFlatListWithDepthInfo",
+    "starterCode": "function givenNestedCommentsPrintAsAFlatListWithDepthInfo(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Validate a Sudoku board (rows/cols/boxes).",
+    "difficulty": "Medium",
+    "description": "Validate a Sudoku board (rows/cols/boxes).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "validateASudokuBoardRowsColsBoxes",
+    "starterCode": "function validateASudokuBoardRowsColsBoxes(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Implement a trie with insert/search/prefix.",
+    "difficulty": "Medium",
+    "description": "Implement a trie with insert/search/prefix.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementATrieWithInsertSearchPrefix",
+    "starterCode": "function implementATrieWithInsertSearchPrefix(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Autocomplete suggestions given a dictionary with prefix search.",
+    "difficulty": "Medium",
+    "description": "Autocomplete suggestions given a dictionary with prefix search.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "autocompleteSuggestionsGivenADictionaryWithPrefixSearch",
+    "starterCode": "function autocompleteSuggestionsGivenADictionaryWithPrefixSearch(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Implement an async memoize that caches pending promises.",
+    "difficulty": "Medium",
+    "description": "Implement an async memoize that caches pending promises.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAnAsyncMemoizeThatCachesPendingPromises",
+    "starterCode": "function implementAnAsyncMemoizeThatCachesPendingPromises(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Implement cancellable fetch with AbortController wrapper.",
+    "difficulty": "Medium",
+    "description": "Implement cancellable fetch with AbortController wrapper.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementCancellableFetchWithAbortcontrollerWrapper",
+    "starterCode": "function implementCancellableFetchWithAbortcontrollerWrapper(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Implement retry with exponential backoff and jitter.",
+    "difficulty": "Medium",
+    "description": "Implement retry with exponential backoff and jitter.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementRetryWithExponentialBackoffAndJitter",
+    "starterCode": "function implementRetryWithExponentialBackoffAndJitter(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Implement compose and pipe utilities for functions.",
+    "difficulty": "Medium",
+    "description": "Implement compose and pipe utilities for functions.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementComposeAndPipeUtilitiesForFunctions",
+    "starterCode": "function implementComposeAndPipeUtilitiesForFunctions(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Serialize and deserialize a binary tree (object structure).",
+    "difficulty": "Medium",
+    "description": "Serialize and deserialize a binary tree (object structure).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "serializeAndDeserializeABinaryTreeObjectStructure",
+    "starterCode": "function serializeAndDeserializeABinaryTreeObjectStructure(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Implement an observable pattern with subscribe/unsubscribe/next.",
+    "difficulty": "Medium",
+    "description": "Implement an observable pattern with subscribe/unsubscribe/next.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAnObservablePatternWithSubscribeUnsubscribeNext",
+    "starterCode": "function implementAnObservablePatternWithSubscribeUnsubscribeNext(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Implement a simple reactive system (dep tracking) like Vue reactivity (tiny).",
+    "difficulty": "Medium",
+    "description": "Implement a simple reactive system (dep tracking) like Vue reactivity (tiny).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleReactiveSystemDepTrackingLikeVueReactivityTiny",
+    "starterCode": "function implementASimpleReactiveSystemDepTrackingLikeVueReactivityTiny(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Implement a pub-sub event bus with once handlers.",
+    "difficulty": "Medium",
+    "description": "Implement a pub-sub event bus with once handlers.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAPubSubEventBusWithOnceHandlers",
+    "starterCode": "function implementAPubSubEventBusWithOnceHandlers(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Implement a rate limiter (token bucket) in JS (simulation).",
+    "difficulty": "Medium",
+    "description": "Implement a rate limiter (token bucket) in JS (simulation).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementARateLimiterTokenBucketInJsSimulation",
+    "starterCode": "function implementARateLimiterTokenBucketInJsSimulation(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Given a stream of integers, return median at each step (two heaps).",
+    "difficulty": "Medium",
+    "description": "Given a stream of integers, return median at each step (two heaps).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "givenAStreamOfIntegersReturnMedianAtEachStepTwoHeaps",
+    "starterCode": "function givenAStreamOfIntegersReturnMedianAtEachStepTwoHeaps(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Implement a basic scheduler that runs tasks in order of priority.",
+    "difficulty": "Medium",
+    "description": "Implement a basic scheduler that runs tasks in order of priority.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementABasicSchedulerThatRunsTasksInOrderOfPriority",
+    "starterCode": "function implementABasicSchedulerThatRunsTasksInOrderOfPriority(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Implement merge intervals and insert interval problems.",
+    "difficulty": "Medium",
+    "description": "Implement merge intervals and insert interval problems.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementMergeIntervalsAndInsertIntervalProblems",
+    "starterCode": "function implementMergeIntervalsAndInsertIntervalProblems(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "Generate valid parentheses combinations for n pairs (backtracking).",
+    "difficulty": "Medium",
+    "description": "Generate valid parentheses combinations for n pairs (backtracking).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "generateValidParenthesesCombinationsForNPairsBacktracking",
+    "starterCode": "function generateValidParenthesesCombinationsForNPairsBacktracking(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Implement word break (DP) given a dictionary.",
+    "difficulty": "Medium",
+    "description": "Implement word break (DP) given a dictionary.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementWordBreakDpGivenADictionary",
+    "starterCode": "function implementWordBreakDpGivenADictionary(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Implement cloneGraph for an undirected graph.",
+    "difficulty": "Medium",
+    "description": "Implement cloneGraph for an undirected graph.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementClonegraphForAnUndirectedGraph",
+    "starterCode": "function implementClonegraphForAnUndirectedGraph(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Implement a simple CSV parser (handle quotes and commas).",
+    "difficulty": "Medium",
+    "description": "Implement a simple CSV parser (handle quotes and commas).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleCsvParserHandleQuotesAndCommas",
+    "starterCode": "function implementASimpleCsvParserHandleQuotesAndCommas(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Implement a debounced auto-save editor stub.",
+    "difficulty": "Medium",
+    "description": "Implement a debounced auto-save editor stub.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementADebouncedAutoSaveEditorStub",
+    "starterCode": "function implementADebouncedAutoSaveEditorStub(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Implement lazy evaluation chain: _(1).add(2).mul(3).value().",
+    "difficulty": "Medium",
+    "description": "Implement lazy evaluation chain: _(1).add(2).mul(3).value().",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementLazyEvaluationChain1Add2Mul3Value",
+    "starterCode": "function implementLazyEvaluationChain1Add2Mul3Value(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Implement deep pick by predicate on object values.",
+    "difficulty": "Medium",
+    "description": "Implement deep pick by predicate on object values.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementDeepPickByPredicateOnObjectValues",
+    "starterCode": "function implementDeepPickByPredicateOnObjectValues(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Implement withTimeout(fn, ms) for any Promise-returning function.",
+    "difficulty": "Medium",
+    "description": "Implement withTimeout(fn, ms) for any Promise-returning function.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementWithtimeoutFnMsForAnyPromiseReturningFunction",
+    "starterCode": "function implementWithtimeoutFnMsForAnyPromiseReturningFunction(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Implement a job queue that retries failed jobs and persists state (in-memory).",
+    "difficulty": "Medium",
+    "description": "Implement a job queue that retries failed jobs and persists state (in-memory).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAJobQueueThatRetriesFailedJobsAndPersistsStateInMemory",
+    "starterCode": "function implementAJobQueueThatRetriesFailedJobsAndPersistsStateInMemory(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Implement snake_case \u25a0 camelCase for object keys recursively with arrays.",
+    "difficulty": "Medium",
+    "description": "Implement snake_case \u25a0 camelCase for object keys recursively with arrays.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementSnakeCaseCamelcaseForObjectKeysRecursivelyWithArrays",
+    "starterCode": "function implementSnakeCaseCamelcaseForObjectKeysRecursivelyWithArrays(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Implement stable sort by multiple keys with comparators.",
+    "difficulty": "Medium",
+    "description": "Implement stable sort by multiple keys with comparators.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementStableSortByMultipleKeysWithComparators",
+    "starterCode": "function implementStableSortByMultipleKeysWithComparators(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Implement image lazy-loader using IntersectionObserver.",
+    "difficulty": "Medium",
+    "description": "Implement image lazy-loader using IntersectionObserver.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementImageLazyLoaderUsingIntersectionobserver",
+    "starterCode": "function implementImageLazyLoaderUsingIntersectionobserver(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Implement a mini router (hash-based) to render sections.",
+    "difficulty": "Medium",
+    "description": "Implement a mini router (hash-based) to render sections.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAMiniRouterHashBasedToRenderSections",
+    "starterCode": "function implementAMiniRouterHashBasedToRenderSections(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Implement infinite scroll fetching batches, handling race conditions.",
+    "difficulty": "Medium",
+    "description": "Implement infinite scroll fetching batches, handling race conditions.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementInfiniteScrollFetchingBatchesHandlingRaceConditions",
+    "starterCode": "function implementInfiniteScrollFetchingBatchesHandlingRaceConditions(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Build a drag-and-drop sortable list (logic only).",
+    "difficulty": "Medium",
+    "description": "Build a drag-and-drop sortable list (logic only).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "buildADragAndDropSortableListLogicOnly",
+    "starterCode": "function buildADragAndDropSortableListLogicOnly(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Implement a simple markdown parser for headings/lists/links.",
+    "difficulty": "Medium",
+    "description": "Implement a simple markdown parser for headings/lists/links.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleMarkdownParserForHeadingsListsLinks",
+    "starterCode": "function implementASimpleMarkdownParserForHeadingsListsLinks(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Implement a function to diff two DOM trees and produce patch ops (simplified).",
+    "difficulty": "Medium",
+    "description": "Implement a function to diff two DOM trees and produce patch ops (simplified).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAFunctionToDiffTwoDomTreesAndProducePatchOpsSimplified",
+    "starterCode": "function implementAFunctionToDiffTwoDomTreesAndProducePatchOpsSimplified(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Implement a scheduler to batch DOM writes/reads to avoid layout thrash.",
+    "difficulty": "Medium",
+    "description": "Implement a scheduler to batch DOM writes/reads to avoid layout thrash.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASchedulerToBatchDomWritesReadsToAvoidLayoutThrash",
+    "starterCode": "function implementASchedulerToBatchDomWritesReadsToAvoidLayoutThrash(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Implement a paginated data table with sorting and searching (logic).",
+    "difficulty": "Medium",
+    "description": "Implement a paginated data table with sorting and searching (logic).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAPaginatedDataTableWithSortingAndSearchingLogic",
+    "starterCode": "function implementAPaginatedDataTableWithSortingAndSearchingLogic(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Implement a promise-based semaphore/mutex utility.",
+    "difficulty": "Medium",
+    "description": "Implement a promise-based semaphore/mutex utility.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAPromiseBasedSemaphoreMutexUtility",
+    "starterCode": "function implementAPromiseBasedSemaphoreMutexUtility(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Implement deep freeze for an object graph.",
+    "difficulty": "Medium",
+    "description": "Implement deep freeze for an object graph.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementDeepFreezeForAnObjectGraph",
+    "starterCode": "function implementDeepFreezeForAnObjectGraph(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Implement a function to clone DOM nodes (without using cloneNode).",
+    "difficulty": "Medium",
+    "description": "Implement a function to clone DOM nodes (without using cloneNode).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAFunctionToCloneDomNodesWithoutUsingClonenode",
+    "starterCode": "function implementAFunctionToCloneDomNodesWithoutUsingClonenode(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Implement a microtask queue shim using MutationObserver (polyfill idea).",
+    "difficulty": "Medium",
+    "description": "Implement a microtask queue shim using MutationObserver (polyfill idea).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAMicrotaskQueueShimUsingMutationobserverPolyfillIdea",
+    "starterCode": "function implementAMicrotaskQueueShimUsingMutationobserverPolyfillIdea(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Implement binary search tree insert/search/delete.",
+    "difficulty": "Medium",
+    "description": "Implement binary search tree insert/search/delete.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementBinarySearchTreeInsertSearchDelete",
+    "starterCode": "function implementBinarySearchTreeInsertSearchDelete(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Implement an AVL or Red-Black tree (basic rotations).",
+    "difficulty": "Medium",
+    "description": "Implement an AVL or Red-Black tree (basic rotations).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAnAvlOrRedBlackTreeBasicRotations",
+    "starterCode": "function implementAnAvlOrRedBlackTreeBasicRotations(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Implement a simple event loop simulation (queues/timers).",
+    "difficulty": "Medium",
+    "description": "Implement a simple event loop simulation (queues/timers).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleEventLoopSimulationQueuesTimers",
+    "starterCode": "function implementASimpleEventLoopSimulationQueuesTimers(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Implement a memoized knapsack (0/1) solution.",
+    "difficulty": "Medium",
+    "description": "Implement a memoized knapsack (0/1) solution.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAMemoizedKnapsack01Solution",
+    "starterCode": "function implementAMemoizedKnapsack01Solution(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Implement longest increasing subsequence.",
+    "difficulty": "Medium",
+    "description": "Implement longest increasing subsequence.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementLongestIncreasingSubsequence",
+    "starterCode": "function implementLongestIncreasingSubsequence(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Implement a function to merge k sorted linked lists.",
+    "difficulty": "Medium",
+    "description": "Implement a function to merge k sorted linked lists.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAFunctionToMergeKSortedLinkedLists",
+    "starterCode": "function implementAFunctionToMergeKSortedLinkedLists(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Implement decode ways (DP) mapping digits to letters.",
+    "difficulty": "Medium",
+    "description": "Implement decode ways (DP) mapping digits to letters.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementDecodeWaysDpMappingDigitsToLetters",
+    "starterCode": "function implementDecodeWaysDpMappingDigitsToLetters(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Implement edit distance (Levenshtein) with DP.",
+    "difficulty": "Medium",
+    "description": "Implement edit distance (Levenshtein) with DP.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementEditDistanceLevenshteinWithDp",
+    "starterCode": "function implementEditDistanceLevenshteinWithDp(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Implement a rolling hash (Rabin\u2013Karp) substring search.",
+    "difficulty": "Medium",
+    "description": "Implement a rolling hash (Rabin\u2013Karp) substring search.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementARollingHashRabinKarpSubstringSearch",
+    "starterCode": "function implementARollingHashRabinKarpSubstringSearch(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Implement a simple templating with conditionals/loops (mini mustache).",
+    "difficulty": "Medium",
+    "description": "Implement a simple templating with conditionals/loops (mini mustache).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleTemplatingWithConditionalsLoopsMiniMustache",
+    "starterCode": "function implementASimpleTemplatingWithConditionalsLoopsMiniMustache(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Implement an image carousel autoplay with pause on hover (logic).",
+    "difficulty": "Medium",
+    "description": "Implement an image carousel autoplay with pause on hover (logic).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAnImageCarouselAutoplayWithPauseOnHoverLogic",
+    "starterCode": "function implementAnImageCarouselAutoplayWithPauseOnHoverLogic(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Implement a basic scheduler for animation frames using requestAnimationFrame.",
+    "difficulty": "Medium",
+    "description": "Implement a basic scheduler for animation frames using requestAnimationFrame.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementABasicSchedulerForAnimationFramesUsingRequestanimationframe",
+    "starterCode": "function implementABasicSchedulerForAnimationFramesUsingRequestanimationframe(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Implement a binary indexed tree (Fenwick tree) for prefix sums.",
+    "difficulty": "Medium",
+    "description": "Implement a binary indexed tree (Fenwick tree) for prefix sums.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementABinaryIndexedTreeFenwickTreeForPrefixSums",
+    "starterCode": "function implementABinaryIndexedTreeFenwickTreeForPrefixSums(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Implement a segment tree for range queries.",
+    "difficulty": "Medium",
+    "description": "Implement a segment tree for range queries.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASegmentTreeForRangeQueries",
+    "starterCode": "function implementASegmentTreeForRangeQueries(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Implement convolution of two integer arrays (naive).",
+    "difficulty": "Medium",
+    "description": "Implement convolution of two integer arrays (naive).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementConvolutionOfTwoIntegerArraysNaive",
+    "starterCode": "function implementConvolutionOfTwoIntegerArraysNaive(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Implement a flood fill on a 2D grid.",
+    "difficulty": "Medium",
+    "description": "Implement a flood fill on a 2D grid.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAFloodFillOnA2dGrid",
+    "starterCode": "function implementAFloodFillOnA2dGrid(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Implement island counting in a matrix (DFS/BFS).",
+    "difficulty": "Medium",
+    "description": "Implement island counting in a matrix (DFS/BFS).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementIslandCountingInAMatrixDfsBfs",
+    "starterCode": "function implementIslandCountingInAMatrixDfsBfs(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Implement a function to compute topological order of a DAG.",
+    "difficulty": "Medium",
+    "description": "Implement a function to compute topological order of a DAG.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAFunctionToComputeTopologicalOrderOfADag",
+    "starterCode": "function implementAFunctionToComputeTopologicalOrderOfADag(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Implement a simple cron parser to schedule tasks (in-memory).",
+    "difficulty": "Medium",
+    "description": "Implement a simple cron parser to schedule tasks (in-memory).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementASimpleCronParserToScheduleTasksInMemory",
+    "starterCode": "function implementASimpleCronParserToScheduleTasksInMemory(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Implement promise.any and promise.allSettled polyfills.",
+    "difficulty": "Medium",
+    "description": "Implement promise.any and promise.allSettled polyfills.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementPromiseAnyAndPromiseAllsettledPolyfills",
+    "starterCode": "function implementPromiseAnyAndPromiseAllsettledPolyfills(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Implement a worker-pool abstraction using web workers (API sketch).",
+    "difficulty": "Medium",
+    "description": "Implement a worker-pool abstraction using web workers (API sketch).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAWorkerPoolAbstractionUsingWebWorkersApiSketch",
+    "starterCode": "function implementAWorkerPoolAbstractionUsingWebWorkersApiSketch(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Implement a JSON schema validator (subset).",
+    "difficulty": "Medium",
+    "description": "Implement a JSON schema validator (subset).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAJsonSchemaValidatorSubset",
+    "starterCode": "function implementAJsonSchemaValidatorSubset(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Implement retry with circuit breaker semantics.",
+    "difficulty": "Medium",
+    "description": "Implement retry with circuit breaker semantics.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementRetryWithCircuitBreakerSemantics",
+    "starterCode": "function implementRetryWithCircuitBreakerSemantics(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Implement log aggregator that groups events by time windows.",
+    "difficulty": "Medium",
+    "description": "Implement log aggregator that groups events by time windows.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementLogAggregatorThatGroupsEventsByTimeWindows",
+    "starterCode": "function implementLogAggregatorThatGroupsEventsByTimeWindows(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Implement a cache with TTL and auto-eviction.",
+    "difficulty": "Medium",
+    "description": "Implement a cache with TTL and auto-eviction.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementACacheWithTtlAndAutoEviction",
+    "starterCode": "function implementACacheWithTtlAndAutoEviction(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Implement path normalization (resolve ., ..) for file paths.",
+    "difficulty": "Medium",
+    "description": "Implement path normalization (resolve ., ..) for file paths.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementPathNormalizationResolveForFilePaths",
+    "starterCode": "function implementPathNormalizationResolveForFilePaths(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Implement URL router with dynamic params (/:id) parsing.",
+    "difficulty": "Medium",
+    "description": "Implement URL router with dynamic params (/:id) parsing.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementUrlRouterWithDynamicParamsIdParsing",
+    "starterCode": "function implementUrlRouterWithDynamicParamsIdParsing(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Implement minimal observable store (subscribe, setState, getState).",
+    "difficulty": "Medium",
+    "description": "Implement minimal observable store (subscribe, setState, getState).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementMinimalObservableStoreSubscribeSetstateGetstate",
+    "starterCode": "function implementMinimalObservableStoreSubscribeSetstateGetstate(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Implement binary addition for large integers as strings.",
+    "difficulty": "Medium",
+    "description": "Implement binary addition for large integers as strings.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementBinaryAdditionForLargeIntegersAsStrings",
+    "starterCode": "function implementBinaryAdditionForLargeIntegersAsStrings(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Implement arithmetic with arbitrary precision (add/multiply strings).",
+    "difficulty": "Medium",
+    "description": "Implement arithmetic with arbitrary precision (add/multiply strings).",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementArithmeticWithArbitraryPrecisionAddMultiplyStrings",
+    "starterCode": "function implementArithmeticWithArbitraryPrecisionAddMultiplyStrings(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Implement calendar date utilities: addDays, isLeapYear, startOfWeek.",
+    "difficulty": "Medium",
+    "description": "Implement calendar date utilities: addDays, isLeapYear, startOfWeek.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementCalendarDateUtilitiesAdddaysIsleapyearStartofweek",
+    "starterCode": "function implementCalendarDateUtilitiesAdddaysIsleapyearStartofweek(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Implement a mini i18n formatter with parameter substitution.",
+    "difficulty": "Medium",
+    "description": "Implement a mini i18n formatter with parameter substitution.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAMiniI18nFormatterWithParameterSubstitution",
+    "starterCode": "function implementAMiniI18nFormatterWithParameterSubstitution(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Implement a promise-based debounce(fn, wait) that resolves with the last invocation's result.",
+    "difficulty": "Medium",
+    "description": "Implement a promise-based debounce(fn, wait) that resolves with the last invocation's result.",
+    "constraints": [
+      "Follow the prompt requirements."
+    ],
+    "examples": [
+      {
+        "input": "See problem description",
+        "output": "See expected behavior"
+      }
+    ],
+    "functionName": "implementAPromiseBasedDebounceFnWaitThatResolvesWithTheLastInvocationSResult",
+    "starterCode": "function implementAPromiseBasedDebounceFnWaitThatResolvesWithTheLastInvocationSResult(...args) {\n  \n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      },
+      {
+        "input": [],
+        "output": "any"
+      }
+    ]
+  }
+]
