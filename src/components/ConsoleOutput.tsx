@@ -6,18 +6,10 @@ interface ConsoleOutputProps {
 }
 
 const ConsoleOutput = ({ results, error }: ConsoleOutputProps) => {
-  const passedCount = results.filter((result) => result.passed).length;
-  const totalCount = results.length;
-
   return (
     <section className="panel console-panel">
       <div className="console-header">
         <h3>Output Console</h3>
-        {totalCount > 0 && !error && (
-          <div className="console-summary">
-            Passed {passedCount} / {totalCount} test cases
-          </div>
-        )}
       </div>
       <div className="console-body">
         {error && <div className="console-error">Error: {error}</div>}

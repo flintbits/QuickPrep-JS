@@ -14,13 +14,7 @@ const workerScript = `
   const isObject = (value) => value !== null && typeof value === 'object';
 
   const deepEqual = (a, b) => {
-    if (b === 'any') return true;
     if (b === 'function' && typeof a === 'function') return true;
-    if (b === 'class' && typeof a === 'function') return true;
-    if (b === 'promise' && a && typeof a.then === 'function') return true;
-    if (b === 'array' && Array.isArray(a)) return true;
-    if (b === 'number' && typeof a === 'number') return true;
-    if (b === 'undefined' && typeof a === 'undefined') return true;
     if (a === b) return true;
     if (Number.isNaN(a) && Number.isNaN(b)) return true;
     if (Array.isArray(a) && Array.isArray(b)) {
@@ -37,43 +31,26 @@ const workerScript = `
   };
 
   const reviveInput = (value) => {
-    if (Array.isArray(value)) {
-      return value.map(reviveInput);
-    }
-    if (value && typeof value === 'object') {
-      if (value.__fn) {
-        return new Function('return ' + value.__fn)();
-      }
-      const entries = Object.entries(value).map(([key, val]) => [key, reviveInput(val)]);
-      return Object.fromEntries(entries);
+    if (value && typeof value === 'object' && value.__fn) {
+      return new Function('return ' + value.__fn)();
     }
     return value;
   };
 
-  self.onmessage = async (event) => {
+  self.onmessage = (event) => {
     const { code, functionName, tests } = event.data;
     try {
       const fn = new Function(code + '\nreturn ' + functionName)();
-      const results = await Promise.all(tests.map(async (test, index) => {
+      const results = tests.map((test, index) => {
         const revivedInput = test.input.map(reviveInput);
         try {
           const output = fn(...revivedInput);
-          if (test.output === 'promise') {
-            return {
-              index,
-              passed: deepEqual(output, test.output),
-              expected: test.output,
-              received: output,
-              input: test.input
-            };
-          }
-          const resolvedOutput = output && typeof output.then === 'function' ? await output : output;
-          const passed = deepEqual(resolvedOutput, test.output);
+          const passed = deepEqual(output, test.output);
           return {
             index,
             passed,
             expected: test.output,
-            received: resolvedOutput,
+            received: output,
             input: test.input
           };
         } catch (error) {
@@ -86,7 +63,7 @@ const workerScript = `
             error: error instanceof Error ? error.message : String(error)
           };
         }
-      }));
+      });
       self.postMessage({ type: 'results', results });
     } catch (error) {
       self.postMessage({

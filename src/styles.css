@@ -258,14 +258,6 @@ body {
 
 .console-header {
   margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.console-summary {
-  font-size: 13px;
-  color: #9aa4b2;
 }
 
 .console-body {

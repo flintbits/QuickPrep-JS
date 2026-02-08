@@ -1,8 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Navigate, Route, Routes, useParams } from "react-router-dom";
-import easyQuestions from "./data/easy.json";
-import mediumQuestions from "./data/medium.json";
-import hardQuestions from "./data/hard.json";
+import questionsData from "./data/questions.json";
 import CodeEditor from "./components/CodeEditor";
 import ConsoleOutput from "./components/ConsoleOutput";
 import ProblemView from "./components/ProblemView";
@@ -10,7 +8,7 @@ import Sidebar from "./components/Sidebar";
 import { Difficulty, Question, TestResult } from "./types";
 import { runTests } from "./utils/testRunner";
 
-const questions = [...easyQuestions, ...mediumQuestions, ...hardQuestions] as Question[];
+const questions = questionsData as Question[];
 
 const codeKey = (id: number) => `code_${id}`;
 const solvedKey = (id: number) => `solved_${id}`;
