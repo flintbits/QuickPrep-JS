@@ -15,11 +15,6 @@ const workerScript = `
 
   const deepEqual = (a, b) => {
     if (b === 'function' && typeof a === 'function') return true;
-    if (b === 'class' && typeof a === 'function') return true;
-    if (b === 'promise' && a && typeof a.then === 'function') return true;
-    if (b === 'array' && Array.isArray(a)) return true;
-    if (b === 'number' && typeof a === 'number') return true;
-    if (b === 'undefined' && typeof a === 'undefined') return true;
     if (a === b) return true;
     if (Number.isNaN(a) && Number.isNaN(b)) return true;
     if (Array.isArray(a) && Array.isArray(b)) {
@@ -36,15 +31,8 @@ const workerScript = `
   };
 
   const reviveInput = (value) => {
-    if (Array.isArray(value)) {
-      return value.map(reviveInput);
-    }
-    if (value && typeof value === 'object') {
-      if (value.__fn) {
-        return new Function('return ' + value.__fn)();
-      }
-      const entries = Object.entries(value).map(([key, val]) => [key, reviveInput(val)]);
-      return Object.fromEntries(entries);
+    if (value && typeof value === 'object' && value.__fn) {
+      return new Function('return ' + value.__fn)();
     }
     return value;
   };
