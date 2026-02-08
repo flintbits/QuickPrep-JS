@@ -1,0 +1,474 @@
+[
+  {
+    "id": 1,
+    "title": "Check if two strings are anagrams",
+    "difficulty": "Easy",
+    "description": "Implement a function to check if two strings are anagrams.",
+    "constraints": [
+      "Ignore order of characters",
+      "Strings may contain lowercase/uppercase letters"
+    ],
+    "examples": [
+      {
+        "input": "\"listen\", \"silent\"",
+        "output": "true",
+        "explanation": "Both contain the same characters with same frequency."
+      },
+      {
+        "input": "\"hello\", \"world\"",
+        "output": "false"
+      }
+    ],
+    "functionName": "isAnagram",
+    "starterCode": "function isAnagram(s1, s2) {\n  \n}",
+    "tests": [
+      {
+        "input": ["listen", "silent"],
+        "output": true
+      },
+      {
+        "input": ["hello", "world"],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reverse a string without using built-in reverse",
+    "difficulty": "Easy",
+    "description": "Reverse a string without using built-in reverse.",
+    "constraints": ["Do not use Array.prototype.reverse"],
+    "examples": [
+      {
+        "input": "\"abc\"",
+        "output": "\"cba\""
+      },
+      {
+        "input": "\"racecar\"",
+        "output": "\"racecar\""
+      }
+    ],
+    "functionName": "reverseString",
+    "starterCode": "function reverseString(str) {\n  \n}",
+    "tests": [
+      {
+        "input": ["abc"],
+        "output": "cba"
+      },
+      {
+        "input": ["racecar"],
+        "output": "racecar"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Two Sum - return indices",
+    "difficulty": "Easy",
+    "description": "Return indices of two numbers summing to target (Two Sum).",
+    "constraints": ["Return indices, not values", "Assume exactly one solution exists"],
+    "examples": [
+      {
+        "input": "[2,7,11,15], 9",
+        "output": "[0,1]",
+        "explanation": "2 + 7 = 9"
+      }
+    ],
+    "functionName": "twoSum",
+    "starterCode": "function twoSum(nums, target) {\n  \n}",
+    "tests": [
+      {
+        "input": [[2, 7, 11, 15], 9],
+        "output": [0, 1]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Check if a string is palindrome (ignore non-alphanumerics)",
+    "difficulty": "Easy",
+    "description": "Check if a string is a palindrome; ignore non-alphanumerics.",
+    "constraints": ["Ignore spaces and special characters", "Case-insensitive"],
+    "examples": [
+      {
+        "input": "\"A man, a plan, a canal: Panama\"",
+        "output": "true"
+      },
+      {
+        "input": "\"race a car\"",
+        "output": "false"
+      }
+    ],
+    "functionName": "isPalindrome",
+    "starterCode": "function isPalindrome(str) {\n  \n}",
+    "tests": [
+      {
+        "input": ["A man, a plan, a canal: Panama"],
+        "output": true
+      },
+      {
+        "input": ["race a car"],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "First non-repeating character",
+    "difficulty": "Easy",
+    "description": "Find the first non-repeating character in a string.",
+    "constraints": ["Return the character itself or null if none"],
+    "examples": [
+      {
+        "input": "\"aabbccdde\"",
+        "output": "\"e\""
+      },
+      {
+        "input": "\"aabb\"",
+        "output": "null"
+      }
+    ],
+    "functionName": "firstNonRepeatingChar",
+    "starterCode": "function firstNonRepeatingChar(str) {\n  \n}",
+    "tests": [
+      {
+        "input": ["aabbccdde"],
+        "output": "e"
+      },
+      {
+        "input": ["aabb"],
+        "output": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Polyfill Array.prototype.map",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.map (polyfill).",
+    "constraints": ["Do not use built-in map"],
+    "examples": [
+      {
+        "input": "[1,2,3], x => x*2",
+        "output": "[2,4,6]"
+      }
+    ],
+    "functionName": "mapPolyfill",
+    "starterCode": "function mapPolyfill(arr, callback) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, 2, 3], { "__fn": "(x) => x * 2" }],
+        "output": [2, 4, 6]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Polyfill Array.prototype.filter",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.filter (polyfill).",
+    "constraints": ["Do not use built-in filter"],
+    "examples": [
+      {
+        "input": "[1,2,3,4], x => x%2===0",
+        "output": "[2,4]"
+      }
+    ],
+    "functionName": "filterPolyfill",
+    "starterCode": "function filterPolyfill(arr, callback) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, 2, 3, 4], { "__fn": "(x) => x % 2 === 0" }],
+        "output": [2, 4]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Polyfill Array.prototype.reduce",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.reduce (polyfill).",
+    "constraints": ["Do not use built-in reduce"],
+    "examples": [
+      {
+        "input": "[1,2,3], (acc,x)=>acc+x, 0",
+        "output": "6"
+      }
+    ],
+    "functionName": "reducePolyfill",
+    "starterCode": "function reducePolyfill(arr, callback, initialValue) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [1, 2, 3],
+          { "__fn": "(acc, x) => acc + x" },
+          0
+        ],
+        "output": 6
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Count character frequencies",
+    "difficulty": "Easy",
+    "description": "Count character frequencies in a string (return an object).",
+    "constraints": ["Return object with char keys and frequency values"],
+    "examples": [
+      {
+        "input": "\"aab\"",
+        "output": "{a:2,b:1}"
+      }
+    ],
+    "functionName": "charFrequency",
+    "starterCode": "function charFrequency(str) {\n  \n}",
+    "tests": [
+      {
+        "input": ["aab"],
+        "output": { "a": 2, "b": 1 }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Flatten a 1-level nested array",
+    "difficulty": "Easy",
+    "description": "Flatten a 1-level nested array (e.g., [1,[2,3],4] → [1,2,3,4]).",
+    "constraints": ["Only flatten one level"],
+    "examples": [
+      {
+        "input": "[1,[2,3],4]",
+        "output": "[1,2,3,4]"
+      }
+    ],
+    "functionName": "flattenOneLevel",
+    "starterCode": "function flattenOneLevel(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, [2, 3], 4]],
+        "output": [1, 2, 3, 4]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Remove duplicates while preserving order",
+    "difficulty": "Easy",
+    "description": "Remove duplicates from an array while preserving order.",
+    "constraints": ["Order must remain same"],
+    "examples": [
+      {
+        "input": "[1,2,2,3,1]",
+        "output": "[1,2,3]"
+      }
+    ],
+    "functionName": "removeDuplicates",
+    "starterCode": "function removeDuplicates(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, 2, 2, 3, 1]],
+        "output": [1, 2, 3]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Merge two sorted arrays",
+    "difficulty": "Easy",
+    "description": "Merge two sorted arrays into a single sorted array.",
+    "constraints": ["Input arrays are already sorted"],
+    "examples": [
+      {
+        "input": "[1,3,5], [2,4,6]",
+        "output": "[1,2,3,4,5,6]"
+      }
+    ],
+    "functionName": "mergeSortedArrays",
+    "starterCode": "function mergeSortedArrays(a, b) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, 3, 5], [2, 4, 6]],
+        "output": [1, 2, 3, 4, 5, 6]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Implement debounce",
+    "difficulty": "Easy",
+    "description": "Implement debounce(fn, delay).",
+    "constraints": ["Should delay execution until user stops calling for delay ms"],
+    "examples": [
+      {
+        "input": "fn, 300",
+        "output": "\"debounced function\""
+      }
+    ],
+    "functionName": "debounce",
+    "starterCode": "function debounce(fn, delay) {\n  \n}",
+    "tests": [
+      {
+        "input": [{ "__fn": "() => 'ok'" }, 300],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Implement throttle",
+    "difficulty": "Easy",
+    "description": "Implement throttle(fn, delay).",
+    "constraints": ["Should execute at most once every delay ms"],
+    "examples": [
+      {
+        "input": "fn, 300",
+        "output": "\"throttled function\""
+      }
+    ],
+    "functionName": "throttle",
+    "starterCode": "function throttle(fn, delay) {\n  \n}",
+    "tests": [
+      {
+        "input": [{ "__fn": "() => 'ok'" }, 300],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Longest common prefix",
+    "difficulty": "Easy",
+    "description": "Find the longest common prefix among strings.",
+    "constraints": ["Return empty string if none"],
+    "examples": [
+      {
+        "input": "[\"flower\",\"flow\",\"flight\"]",
+        "output": "\"fl\""
+      },
+      {
+        "input": "[\"dog\",\"racecar\",\"car\"]",
+        "output": "\"\""
+      }
+    ],
+    "functionName": "longestCommonPrefix",
+    "starterCode": "function longestCommonPrefix(strs) {\n  \n}",
+    "tests": [
+      {
+        "input": [["flower", "flow", "flight"]],
+        "output": "fl"
+      },
+      {
+        "input": [["dog", "racecar", "car"]],
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Capitalize first letter of every word",
+    "difficulty": "Easy",
+    "description": "Capitalize the first letter of every word in a sentence.",
+    "constraints": ["Preserve spaces"],
+    "examples": [
+      {
+        "input": "\"hello world\"",
+        "output": "\"Hello World\""
+      }
+    ],
+    "functionName": "capitalizeWords",
+    "starterCode": "function capitalizeWords(sentence) {\n  \n}",
+    "tests": [
+      {
+        "input": ["hello world"],
+        "output": "Hello World"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Implement once(fn)",
+    "difficulty": "Easy",
+    "description": "Implement a function once(fn) that runs a function only once.",
+    "constraints": ["Subsequent calls return first computed result"],
+    "examples": [
+      {
+        "input": "fn",
+        "output": "\"function that runs once\""
+      }
+    ],
+    "functionName": "once",
+    "starterCode": "function once(fn) {\n  \n}",
+    "tests": [
+      {
+        "input": [{ "__fn": "() => 'ok'" }],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Implement simple memoize",
+    "difficulty": "Easy",
+    "description": "Implement a simple memoize(fn).",
+    "constraints": ["Cache results for same arguments"],
+    "examples": [
+      {
+        "input": "fn",
+        "output": "\"memoized function\""
+      }
+    ],
+    "functionName": "memoize",
+    "starterCode": "function memoize(fn) {\n  \n}",
+    "tests": [
+      {
+        "input": [{ "__fn": "(...args) => args.join('-')" }],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Chunk array into subarrays of size k",
+    "difficulty": "Easy",
+    "description": "Chunk an array into subarrays of size k.",
+    "constraints": ["Last chunk may be smaller"],
+    "examples": [
+      {
+        "input": "[1,2,3,4,5], 2",
+        "output": "[[1,2],[3,4],[5]]"
+      }
+    ],
+    "functionName": "chunkArray",
+    "starterCode": "function chunkArray(arr, k) {\n  \n}",
+    "tests": [
+      {
+        "input": [[1, 2, 3, 4, 5], 2],
+        "output": [[1, 2], [3, 4], [5]]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Group array of objects by key",
+    "difficulty": "Easy",
+    "description": "Group an array of objects by a key (e.g., department).",
+    "constraints": ["Return object with grouped arrays"],
+    "examples": [
+      {
+        "input": "[{dept:\"A\"},{dept:\"B\"},{dept:\"A\"}], \"dept\"",
+        "output": "{A:[...],B:[...]}"
+      }
+    ],
+    "functionName": "groupBy",
+    "starterCode": "function groupBy(arr, key) {\n  \n}",
+    "tests": [
+      {
+        "input": [[{"dept": "A"}, {"dept": "B"}, {"dept": "A"}], "dept"],
+        "output": {
+          "A": [{"dept": "A"}, {"dept": "A"}],
+          "B": [{"dept": "B"}]
+        }
+      }
+    ]
+  }
+]
