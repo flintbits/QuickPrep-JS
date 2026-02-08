@@ -1,0 +1,2367 @@
+[
+  {
+    "id": 1,
+    "title": "Check if two strings are anagrams",
+    "difficulty": "Easy",
+    "description": "Implement a function to check if two strings are anagrams.",
+    "constraints": [
+      "Ignore order of characters",
+      "Strings may contain lowercase/uppercase letters"
+    ],
+    "examples": [
+      {
+        "input": "\"listen\", \"silent\"",
+        "output": "true",
+        "explanation": "Both contain the same characters with same frequency."
+      },
+      {
+        "input": "\"hello\", \"world\"",
+        "output": "false"
+      }
+    ],
+    "functionName": "isAnagram",
+    "starterCode": "function isAnagram(s1, s2) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "listen",
+          "silent"
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          "hello",
+          "world"
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reverse a string without using built-in reverse",
+    "difficulty": "Easy",
+    "description": "Reverse a string without using built-in reverse.",
+    "constraints": [
+      "Do not use Array.prototype.reverse"
+    ],
+    "examples": [
+      {
+        "input": "\"abc\"",
+        "output": "\"cba\""
+      },
+      {
+        "input": "\"racecar\"",
+        "output": "\"racecar\""
+      }
+    ],
+    "functionName": "reverseString",
+    "starterCode": "function reverseString(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "abc"
+        ],
+        "output": "cba"
+      },
+      {
+        "input": [
+          "racecar"
+        ],
+        "output": "racecar"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Two Sum - return indices",
+    "difficulty": "Easy",
+    "description": "Return indices of two numbers summing to target (Two Sum).",
+    "constraints": [
+      "Return indices, not values",
+      "Assume exactly one solution exists"
+    ],
+    "examples": [
+      {
+        "input": "[2,7,11,15], 9",
+        "output": "[0,1]",
+        "explanation": "2 + 7 = 9"
+      }
+    ],
+    "functionName": "twoSum",
+    "starterCode": "function twoSum(nums, target) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            2,
+            7,
+            11,
+            15
+          ],
+          9
+        ],
+        "output": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Check if a string is palindrome (ignore non-alphanumerics)",
+    "difficulty": "Easy",
+    "description": "Check if a string is a palindrome; ignore non-alphanumerics.",
+    "constraints": [
+      "Ignore spaces and special characters",
+      "Case-insensitive"
+    ],
+    "examples": [
+      {
+        "input": "\"A man, a plan, a canal: Panama\"",
+        "output": "true"
+      },
+      {
+        "input": "\"race a car\"",
+        "output": "false"
+      }
+    ],
+    "functionName": "isPalindrome",
+    "starterCode": "function isPalindrome(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "A man, a plan, a canal: Panama"
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          "race a car"
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "First non-repeating character",
+    "difficulty": "Easy",
+    "description": "Find the first non-repeating character in a string.",
+    "constraints": [
+      "Return the character itself or null if none"
+    ],
+    "examples": [
+      {
+        "input": "\"aabbccdde\"",
+        "output": "\"e\""
+      },
+      {
+        "input": "\"aabb\"",
+        "output": "null"
+      }
+    ],
+    "functionName": "firstNonRepeatingChar",
+    "starterCode": "function firstNonRepeatingChar(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "aabbccdde"
+        ],
+        "output": "e"
+      },
+      {
+        "input": [
+          "aabb"
+        ],
+        "output": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Polyfill Array.prototype.map",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.map (polyfill).",
+    "constraints": [
+      "Do not use built-in map"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3], x => x*2",
+        "output": "[2,4,6]"
+      }
+    ],
+    "functionName": "mapPolyfill",
+    "starterCode": "function mapPolyfill(arr, callback) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3
+          ],
+          {
+            "__fn": "(x) => x * 2"
+          }
+        ],
+        "output": [
+          2,
+          4,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Polyfill Array.prototype.filter",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.filter (polyfill).",
+    "constraints": [
+      "Do not use built-in filter"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4], x => x%2===0",
+        "output": "[2,4]"
+      }
+    ],
+    "functionName": "filterPolyfill",
+    "starterCode": "function filterPolyfill(arr, callback) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          {
+            "__fn": "(x) => x % 2 === 0"
+          }
+        ],
+        "output": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Polyfill Array.prototype.reduce",
+    "difficulty": "Easy",
+    "description": "Implement Array.prototype.reduce (polyfill).",
+    "constraints": [
+      "Do not use built-in reduce"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3], (acc,x)=>acc+x, 0",
+        "output": "6"
+      }
+    ],
+    "functionName": "reducePolyfill",
+    "starterCode": "function reducePolyfill(arr, callback, initialValue) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3
+          ],
+          {
+            "__fn": "(acc, x) => acc + x"
+          },
+          0
+        ],
+        "output": 6
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Count character frequencies",
+    "difficulty": "Easy",
+    "description": "Count character frequencies in a string (return an object).",
+    "constraints": [
+      "Return object with char keys and frequency values"
+    ],
+    "examples": [
+      {
+        "input": "\"aab\"",
+        "output": "{a:2,b:1}"
+      }
+    ],
+    "functionName": "charFrequency",
+    "starterCode": "function charFrequency(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "aab"
+        ],
+        "output": {
+          "a": 2,
+          "b": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Flatten a 1-level nested array",
+    "difficulty": "Easy",
+    "description": "Flatten a 1-level nested array (e.g., [1,[2,3],4] \u2192 [1,2,3,4]).",
+    "constraints": [
+      "Only flatten one level"
+    ],
+    "examples": [
+      {
+        "input": "[1,[2,3],4]",
+        "output": "[1,2,3,4]"
+      }
+    ],
+    "functionName": "flattenOneLevel",
+    "starterCode": "function flattenOneLevel(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            [
+              2,
+              3
+            ],
+            4
+          ]
+        ],
+        "output": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Remove duplicates while preserving order",
+    "difficulty": "Easy",
+    "description": "Remove duplicates from an array while preserving order.",
+    "constraints": [
+      "Order must remain same"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,2,3,1]",
+        "output": "[1,2,3]"
+      }
+    ],
+    "functionName": "removeDuplicates",
+    "starterCode": "function removeDuplicates(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            2,
+            3,
+            1
+          ]
+        ],
+        "output": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Merge two sorted arrays",
+    "difficulty": "Easy",
+    "description": "Merge two sorted arrays into a single sorted array.",
+    "constraints": [
+      "Input arrays are already sorted"
+    ],
+    "examples": [
+      {
+        "input": "[1,3,5], [2,4,6]",
+        "output": "[1,2,3,4,5,6]"
+      }
+    ],
+    "functionName": "mergeSortedArrays",
+    "starterCode": "function mergeSortedArrays(a, b) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4,
+            6
+          ]
+        ],
+        "output": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Implement debounce",
+    "difficulty": "Easy",
+    "description": "Implement debounce(fn, delay).",
+    "constraints": [
+      "Should delay execution until user stops calling for delay ms"
+    ],
+    "examples": [
+      {
+        "input": "fn, 300",
+        "output": "\"debounced function\""
+      }
+    ],
+    "functionName": "debounce",
+    "starterCode": "function debounce(fn, delay) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "() => 'ok'"
+          },
+          300
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Implement throttle",
+    "difficulty": "Easy",
+    "description": "Implement throttle(fn, delay).",
+    "constraints": [
+      "Should execute at most once every delay ms"
+    ],
+    "examples": [
+      {
+        "input": "fn, 300",
+        "output": "\"throttled function\""
+      }
+    ],
+    "functionName": "throttle",
+    "starterCode": "function throttle(fn, delay) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "() => 'ok'"
+          },
+          300
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Longest common prefix",
+    "difficulty": "Easy",
+    "description": "Find the longest common prefix among strings.",
+    "constraints": [
+      "Return empty string if none"
+    ],
+    "examples": [
+      {
+        "input": "[\"flower\",\"flow\",\"flight\"]",
+        "output": "\"fl\""
+      },
+      {
+        "input": "[\"dog\",\"racecar\",\"car\"]",
+        "output": "\"\""
+      }
+    ],
+    "functionName": "longestCommonPrefix",
+    "starterCode": "function longestCommonPrefix(strs) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            "flower",
+            "flow",
+            "flight"
+          ]
+        ],
+        "output": "fl"
+      },
+      {
+        "input": [
+          [
+            "dog",
+            "racecar",
+            "car"
+          ]
+        ],
+        "output": ""
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Capitalize first letter of every word",
+    "difficulty": "Easy",
+    "description": "Capitalize the first letter of every word in a sentence.",
+    "constraints": [
+      "Preserve spaces"
+    ],
+    "examples": [
+      {
+        "input": "\"hello world\"",
+        "output": "\"Hello World\""
+      }
+    ],
+    "functionName": "capitalizeWords",
+    "starterCode": "function capitalizeWords(sentence) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "hello world"
+        ],
+        "output": "Hello World"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Implement once(fn)",
+    "difficulty": "Easy",
+    "description": "Implement a function once(fn) that runs a function only once.",
+    "constraints": [
+      "Subsequent calls return first computed result"
+    ],
+    "examples": [
+      {
+        "input": "fn",
+        "output": "\"function that runs once\""
+      }
+    ],
+    "functionName": "once",
+    "starterCode": "function once(fn) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "() => 'ok'"
+          }
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Implement simple memoize",
+    "difficulty": "Easy",
+    "description": "Implement a simple memoize(fn).",
+    "constraints": [
+      "Cache results for same arguments"
+    ],
+    "examples": [
+      {
+        "input": "fn",
+        "output": "\"memoized function\""
+      }
+    ],
+    "functionName": "memoize",
+    "starterCode": "function memoize(fn) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "(...args) => args.join('-')"
+          }
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Chunk array into subarrays of size k",
+    "difficulty": "Easy",
+    "description": "Chunk an array into subarrays of size k.",
+    "constraints": [
+      "Last chunk may be smaller"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4,5], 2",
+        "output": "[[1,2],[3,4],[5]]"
+      }
+    ],
+    "functionName": "chunkArray",
+    "starterCode": "function chunkArray(arr, k) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          2
+        ],
+        "output": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Group array of objects by key",
+    "difficulty": "Easy",
+    "description": "Group an array of objects by a key (e.g., department).",
+    "constraints": [
+      "Return object with grouped arrays"
+    ],
+    "examples": [
+      {
+        "input": "[{dept:\"A\"},{dept:\"B\"},{dept:\"A\"}], \"dept\"",
+        "output": "{A:[...],B:[...]}"
+      }
+    ],
+    "functionName": "groupBy",
+    "starterCode": "function groupBy(arr, key) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "dept": "A"
+            },
+            {
+              "dept": "B"
+            },
+            {
+              "dept": "A"
+            }
+          ],
+          "dept"
+        ],
+        "output": {
+          "A": [
+            {
+              "dept": "A"
+            },
+            {
+              "dept": "A"
+            }
+          ],
+          "B": [
+            {
+              "dept": "B"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Deep equality check for primitives and plain objects",
+    "difficulty": "Easy",
+    "description": "Implement deep equality check for primitives and plain objects.",
+    "constraints": [
+      "Handle nested objects",
+      "Ignore prototypes/functions"
+    ],
+    "examples": [
+      {
+        "input": "({a:1},{a:1})",
+        "output": "true"
+      },
+      {
+        "input": "({a:1},{a:2})",
+        "output": "false"
+      }
+    ],
+    "functionName": "deepEqual",
+    "starterCode": "function deepEqual(a, b) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": 1
+          },
+          {
+            "a": 1
+          }
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          {
+            "a": 1
+          },
+          {
+            "a": 2
+          }
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Implement curry(fn)",
+    "difficulty": "Easy",
+    "description": "Implement a curry(fn) utility.",
+    "constraints": [
+      "Support partial application"
+    ],
+    "examples": [
+      {
+        "input": "sum(1)(2)(3)",
+        "output": "6"
+      }
+    ],
+    "functionName": "curry",
+    "starterCode": "function curry(fn) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "(...args) => args.reduce((a, b) => a + b, 0)"
+          }
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Sum numbers in a nested array (recursively)",
+    "difficulty": "Easy",
+    "description": "Sum numbers in a nested array (recursively).",
+    "constraints": [
+      "Nested arrays can be any depth",
+      "Only numbers included"
+    ],
+    "examples": [
+      {
+        "input": "[1,[2,[3]],4]",
+        "output": "10"
+      }
+    ],
+    "functionName": "sumNestedArray",
+    "starterCode": "function sumNestedArray(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            [
+              2,
+              [
+                3
+              ]
+            ],
+            4
+          ]
+        ],
+        "output": 10
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Simple event emitter (on/off/emit)",
+    "difficulty": "Easy",
+    "description": "Implement a simple event emitter (on/off/emit).",
+    "constraints": [
+      "Support multiple listeners per event"
+    ],
+    "examples": [
+      {
+        "input": "on(\"click\", fn)",
+        "output": "\"listener registered\""
+      }
+    ],
+    "functionName": "EventEmitter",
+    "starterCode": "class EventEmitter {\n  constructor() {\n    \n  }\n\n  on(event, fn) {\n    \n  }\n\n  off(event, fn) {\n    \n  }\n\n  emit(event, ...args) {\n    \n  }\n}",
+    "tests": [
+      {
+        "input": [],
+        "output": "class"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Basic Promise.all (assume inputs resolve)",
+    "difficulty": "Easy",
+    "description": "Implement a basic Promise.all (assume inputs resolve).",
+    "constraints": [
+      "Preserve order of results"
+    ],
+    "examples": [
+      {
+        "input": "[Promise.resolve(1), Promise.resolve(2)]",
+        "output": "[1,2]"
+      }
+    ],
+    "functionName": "promiseAll",
+    "starterCode": "function promiseAll(promises) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "__fn": "Promise.resolve(1)"
+            },
+            {
+              "__fn": "Promise.resolve(2)"
+            }
+          ]
+        ],
+        "output": "promise"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Flatten an object with dot notation keys",
+    "difficulty": "Easy",
+    "description": "Write a function to flatten an object with dot notation keys.",
+    "constraints": [
+      "Nested objects should be flattened"
+    ],
+    "examples": [
+      {
+        "input": "{a:{b:2}}",
+        "output": "{ \"a.b\":2 }"
+      }
+    ],
+    "functionName": "flattenObject",
+    "starterCode": "function flattenObject(obj) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": {
+              "b": 2
+            }
+          }
+        ],
+        "output": {
+          "a.b": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Range(start, end) generator using closures",
+    "difficulty": "Easy",
+    "description": "Implement a range(start, end) generator using closures.",
+    "constraints": [
+      "Should return function that yields next number"
+    ],
+    "examples": [
+      {
+        "input": "range(1,3)",
+        "output": "1,2,3"
+      }
+    ],
+    "functionName": "range",
+    "starterCode": "function range(start, end) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          1,
+          3
+        ],
+        "output": "function"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Rotate array by k positions (right rotation)",
+    "difficulty": "Easy",
+    "description": "Rotate an array by k positions (right rotation).",
+    "constraints": [
+      "k may be greater than array length"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4,5], 2",
+        "output": "[4,5,1,2,3]"
+      }
+    ],
+    "functionName": "rotateArray",
+    "starterCode": "function rotateArray(arr, k) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          2
+        ],
+        "output": [
+          4,
+          5,
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Intersection of two arrays (unique values)",
+    "difficulty": "Easy",
+    "description": "Find intersection of two arrays (unique values).",
+    "constraints": [
+      "Return unique values only"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,2,3], [2,3,4]",
+        "output": "[2,3]"
+      }
+    ],
+    "functionName": "intersection",
+    "starterCode": "function intersection(arr1, arr2) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            2,
+            3
+          ],
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "output": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Simple LRU cache (very small capacity)",
+    "difficulty": "Easy",
+    "description": "Implement a simple LRU cache (very small capacity).",
+    "constraints": [
+      "Evict least recently used item when full"
+    ],
+    "examples": [
+      {
+        "input": "capacity=2",
+        "output": "\"cache supports get/set\""
+      }
+    ],
+    "functionName": "LRUCache",
+    "starterCode": "class LRUCache {\n  constructor(capacity) {\n    \n  }\n\n  get(key) {\n    \n  }\n\n  set(key, value) {\n    \n  }\n}",
+    "tests": [
+      {
+        "input": [
+          2
+        ],
+        "output": "class"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Check balanced parentheses using stack",
+    "difficulty": "Easy",
+    "description": "Check balanced parentheses using a stack.",
+    "constraints": [
+      "Handle (), {}, []"
+    ],
+    "examples": [
+      {
+        "input": "\"()[]{}\"",
+        "output": "true"
+      },
+      {
+        "input": "\"(]\"",
+        "output": "false"
+      }
+    ],
+    "functionName": "isBalanced",
+    "starterCode": "function isBalanced(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "()[]{}"
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          "(]"
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Binary search on sorted array",
+    "difficulty": "Easy",
+    "description": "Implement a basic binary search on a sorted array.",
+    "constraints": [
+      "Return index or -1 if not found"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4,5], 4",
+        "output": "3"
+      }
+    ],
+    "functionName": "binarySearch",
+    "starterCode": "function binarySearch(arr, target) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          4
+        ],
+        "output": 3
+      },
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          10
+        ],
+        "output": -1
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Remove falsy values from array",
+    "difficulty": "Easy",
+    "description": "Remove falsy values from an array (clean).",
+    "constraints": [
+      "Remove false, 0, '', null, undefined, NaN"
+    ],
+    "examples": [
+      {
+        "input": "[0,1,false,2,'',3]",
+        "output": "[1,2,3]"
+      }
+    ],
+    "functionName": "removeFalsy",
+    "starterCode": "function removeFalsy(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            0,
+            1,
+            false,
+            2,
+            "",
+            3
+          ]
+        ],
+        "output": [
+          1,
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Sum values by key across array of objects",
+    "difficulty": "Easy",
+    "description": "Sum values by key across an array of objects.",
+    "constraints": [
+      "Key may not exist in all objects"
+    ],
+    "examples": [
+      {
+        "input": "[{a:1},{a:2},{a:3}], \"a\"",
+        "output": "6"
+      }
+    ],
+    "functionName": "sumByKey",
+    "starterCode": "function sumByKey(arr, key) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "a": 1
+            },
+            {
+              "a": 2
+            },
+            {
+              "a": 3
+            }
+          ],
+          "a"
+        ],
+        "output": 6
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Get(obj, path, defaultVal) accessor",
+    "difficulty": "Easy",
+    "description": "Implement get(obj, path, defaultVal) path accessor.",
+    "constraints": [
+      "Path may contain dots",
+      "Return defaultVal if not found"
+    ],
+    "examples": [
+      {
+        "input": "({a:{b:2}}, \"a.b\", 0)",
+        "output": "2"
+      }
+    ],
+    "functionName": "get",
+    "starterCode": "function get(obj, path, defaultVal) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": {
+              "b": 2
+            }
+          },
+          "a.b",
+          0
+        ],
+        "output": 2
+      },
+      {
+        "input": [
+          {
+            "a": {}
+          },
+          "a.b",
+          0
+        ],
+        "output": 0
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Set(obj, path, value) to create nested paths",
+    "difficulty": "Easy",
+    "description": "Implement set(obj, path, value) to create nested paths.",
+    "constraints": [
+      "Create missing objects along the path"
+    ],
+    "examples": [
+      {
+        "input": "({}, \"a.b.c\", 5)",
+        "output": "{a:{b:{c:5}}}"
+      }
+    ],
+    "functionName": "set",
+    "starterCode": "function set(obj, path, value) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {},
+          "a.b.c",
+          5
+        ],
+        "output": {
+          "a": {
+            "b": {
+              "c": 5
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Dedupe objects by id",
+    "difficulty": "Easy",
+    "description": "Write a function to dedupe objects by id.",
+    "constraints": [
+      "Keep first occurrence",
+      "Preserve order"
+    ],
+    "examples": [
+      {
+        "input": "[{id:1},{id:2},{id:1}]",
+        "output": "[{id:1},{id:2}]"
+      }
+    ],
+    "functionName": "dedupeById",
+    "starterCode": "function dedupeById(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            }
+          ]
+        ],
+        "output": [
+          {
+            "id": 1
+          },
+          {
+            "id": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Most frequent element in array (mode)",
+    "difficulty": "Easy",
+    "description": "Find the most frequent element in an array (mode).",
+    "constraints": [
+      "Return any if multiple modes exist"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,2,3,3,3]",
+        "output": "3"
+      }
+    ],
+    "functionName": "mode",
+    "starterCode": "function mode(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            2,
+            3,
+            3,
+            3
+          ]
+        ],
+        "output": 3
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Sleep(ms) returning a Promise",
+    "difficulty": "Easy",
+    "description": "Implement sleep(ms) returning a Promise.",
+    "constraints": [
+      "Resolve after ms milliseconds"
+    ],
+    "examples": [
+      {
+        "input": "sleep(1000)",
+        "output": "\"resolves after 1 second\""
+      }
+    ],
+    "functionName": "sleep",
+    "starterCode": "function sleep(ms) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          100
+        ],
+        "output": "promise"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Retry(fn, attempts) for promise-returning function",
+    "difficulty": "Easy",
+    "description": "Implement retry(fn, attempts) for a promise-returning function.",
+    "constraints": [
+      "Retry until success or attempts exhausted"
+    ],
+    "examples": [
+      {
+        "input": "fn, 3",
+        "output": "\"promise result or error\""
+      }
+    ],
+    "functionName": "retry",
+    "starterCode": "async function retry(fn, attempts) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "() => Promise.resolve('ok')"
+          },
+          3
+        ],
+        "output": "promise"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Serialize query params from object",
+    "difficulty": "Easy",
+    "description": "Serialize query params from an object (to URL string).",
+    "constraints": [
+      "Encode special characters"
+    ],
+    "examples": [
+      {
+        "input": "{a:1,b:2}",
+        "output": "\"a=1&b=2\""
+      }
+    ],
+    "functionName": "serializeQuery",
+    "starterCode": "function serializeQuery(obj) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": 1,
+            "b": 2
+          }
+        ],
+        "output": "a=1&b=2"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Parse query params into object",
+    "difficulty": "Easy",
+    "description": "Parse query params into an object.",
+    "constraints": [
+      "Handle leading ?"
+    ],
+    "examples": [
+      {
+        "input": "\"?a=1&b=2\"",
+        "output": "{a:\"1\",b:\"2\"}"
+      }
+    ],
+    "functionName": "parseQuery",
+    "starterCode": "function parseQuery(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "?a=1&b=2"
+        ],
+        "output": {
+          "a": "1",
+          "b": "2"
+        }
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Shuffle array (Fisher-Yates)",
+    "difficulty": "Easy",
+    "description": "Implement a simple shuffle (Fisher\u2013Yates).",
+    "constraints": [
+      "Shuffle should be unbiased"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4]",
+        "output": "\"random permutation\""
+      }
+    ],
+    "functionName": "shuffle",
+    "starterCode": "function shuffle(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "output": "array"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Check if two objects have same keys",
+    "difficulty": "Easy",
+    "description": "Check if two objects have the same keys (ignore values).",
+    "constraints": [
+      "Only compare top-level keys"
+    ],
+    "examples": [
+      {
+        "input": "({a:1,b:2},{b:3,a:4})",
+        "output": "true"
+      },
+      {
+        "input": "({a:1},{a:1,b:2})",
+        "output": "false"
+      }
+    ],
+    "functionName": "sameKeys",
+    "starterCode": "function sameKeys(obj1, obj2) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": 1,
+            "b": 2
+          },
+          {
+            "b": 3,
+            "a": 4
+          }
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          {
+            "a": 1
+          },
+          {
+            "a": 1,
+            "b": 2
+          }
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Flatten nested array to any depth",
+    "difficulty": "Easy",
+    "description": "Flatten a nested array to any depth (recursive).",
+    "constraints": [
+      "Do not use flat(Infinity)"
+    ],
+    "examples": [
+      {
+        "input": "[1,[2,[3,[4]]]]",
+        "output": "[1,2,3,4]"
+      }
+    ],
+    "functionName": "flattenDeep",
+    "starterCode": "function flattenDeep(arr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            [
+              2,
+              [
+                3,
+                [
+                  4
+                ]
+              ]
+            ]
+          ]
+        ],
+        "output": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Tiny template engine",
+    "difficulty": "Easy",
+    "description": "Implement a tiny template engine: greet('Hi, ${name}!').",
+    "constraints": [
+      "Replace variables using provided object"
+    ],
+    "examples": [
+      {
+        "input": "\"Hi, ${name}!\", {name:\"Sam\"}",
+        "output": "\"Hi, Sam!\""
+      }
+    ],
+    "functionName": "template",
+    "starterCode": "function template(str, data) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "Hi, ${name}!",
+          {
+            "name": "Sam"
+          }
+        ],
+        "output": "Hi, Sam!"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Left pad string",
+    "difficulty": "Easy",
+    "description": "Implement left-pad(str, len, ch).",
+    "constraints": [
+      "Pad on left until length reached"
+    ],
+    "examples": [
+      {
+        "input": "(\"5\", 3, \"0\")",
+        "output": "\"005\""
+      }
+    ],
+    "functionName": "leftPad",
+    "starterCode": "function leftPad(str, len, ch) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "5",
+          3,
+          "0"
+        ],
+        "output": "005"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Promise.race polyfill",
+    "difficulty": "Easy",
+    "description": "Implement Promise.race (basic).",
+    "constraints": [
+      "Resolve/reject as soon as first promise settles"
+    ],
+    "examples": [
+      {
+        "input": "[p1,p2]",
+        "output": "\"first settled value\""
+      }
+    ],
+    "functionName": "promiseRace",
+    "starterCode": "function promiseRace(promises) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "__fn": "Promise.resolve('a')"
+            },
+            {
+              "__fn": "Promise.resolve('b')"
+            }
+          ]
+        ],
+        "output": "promise"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Timeout wrapper for a Promise",
+    "difficulty": "Easy",
+    "description": "Implement a timeout wrapper for a Promise.",
+    "constraints": [
+      "Reject if promise does not resolve within ms"
+    ],
+    "examples": [
+      {
+        "input": "promise, 1000",
+        "output": "\"reject if exceeds 1 second\""
+      }
+    ],
+    "functionName": "withTimeout",
+    "starterCode": "function withTimeout(promise, ms) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "__fn": "Promise.resolve('ok')"
+          },
+          1000
+        ],
+        "output": "promise"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "uniqueBy(arr, keySelector)",
+    "difficulty": "Easy",
+    "description": "Implement uniqueBy(arr, keySelector).",
+    "constraints": [
+      "Preserve first occurrence"
+    ],
+    "examples": [
+      {
+        "input": "[{id:1},{id:2},{id:1}], x=>x.id",
+        "output": "[{id:1},{id:2}]"
+      }
+    ],
+    "functionName": "uniqueBy",
+    "starterCode": "function uniqueBy(arr, keySelector) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            {
+              "id": 1
+            },
+            {
+              "id": 2
+            },
+            {
+              "id": 1
+            }
+          ],
+          {
+            "__fn": "(x) => x.id"
+          }
+        ],
+        "output": [
+          {
+            "id": 1
+          },
+          {
+            "id": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Clamp(number, min, max)",
+    "difficulty": "Easy",
+    "description": "Implement clamp(number, min, max).",
+    "constraints": [
+      "Return min if number < min",
+      "Return max if number > max"
+    ],
+    "examples": [
+      {
+        "input": "(10, 0, 5)",
+        "output": "5"
+      }
+    ],
+    "functionName": "clamp",
+    "starterCode": "function clamp(num, min, max) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          10,
+          0,
+          5
+        ],
+        "output": 5
+      },
+      {
+        "input": [
+          -1,
+          0,
+          5
+        ],
+        "output": 0
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Convert snake_case keys to camelCase (deep)",
+    "difficulty": "Easy",
+    "description": "Convert snake_case keys to camelCase (deep).",
+    "constraints": [
+      "Convert nested objects too"
+    ],
+    "examples": [
+      {
+        "input": "{first_name:\"Sam\"}",
+        "output": "{firstName:\"Sam\"}"
+      }
+    ],
+    "functionName": "snakeToCamelDeep",
+    "starterCode": "function snakeToCamelDeep(obj) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "first_name": "Sam"
+          }
+        ],
+        "output": {
+          "firstName": "Sam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Format number with commas",
+    "difficulty": "Easy",
+    "description": "Implement a function to format a number with commas.",
+    "constraints": [
+      "Handle large numbers"
+    ],
+    "examples": [
+      {
+        "input": "1000000",
+        "output": "\"1,000,000\""
+      }
+    ],
+    "functionName": "formatWithCommas",
+    "starterCode": "function formatWithCommas(num) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          1000000
+        ],
+        "output": "1,000,000"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Memoized Fibonacci (top-down)",
+    "difficulty": "Easy",
+    "description": "Implement memoized Fibonacci (top-down).",
+    "constraints": [
+      "Use recursion + memoization"
+    ],
+    "examples": [
+      {
+        "input": "6",
+        "output": "8"
+      }
+    ],
+    "functionName": "fib",
+    "starterCode": "function fib(n, memo = {}) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          6
+        ],
+        "output": 8
+      },
+      {
+        "input": [
+          0
+        ],
+        "output": 0
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Binary to decimal conversion",
+    "difficulty": "Easy",
+    "description": "Implement binary to decimal conversion.",
+    "constraints": [
+      "Binary input as string"
+    ],
+    "examples": [
+      {
+        "input": "\"1010\"",
+        "output": "10"
+      }
+    ],
+    "functionName": "binaryToDecimal",
+    "starterCode": "function binaryToDecimal(binStr) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "1010"
+        ],
+        "output": 10
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Decimal to binary conversion",
+    "difficulty": "Easy",
+    "description": "Implement decimal to binary conversion.",
+    "constraints": [
+      "Return binary string"
+    ],
+    "examples": [
+      {
+        "input": "10",
+        "output": "\"1010\""
+      }
+    ],
+    "functionName": "decimalToBinary",
+    "starterCode": "function decimalToBinary(num) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          10
+        ],
+        "output": "1010"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Check if number is power of two",
+    "difficulty": "Easy",
+    "description": "Check if a number is power of two.",
+    "constraints": [
+      "Return false for <= 0"
+    ],
+    "examples": [
+      {
+        "input": "16",
+        "output": "true"
+      },
+      {
+        "input": "18",
+        "output": "false"
+      }
+    ],
+    "functionName": "isPowerOfTwo",
+    "starterCode": "function isPowerOfTwo(n) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          16
+        ],
+        "output": true
+      },
+      {
+        "input": [
+          18
+        ],
+        "output": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Find missing number in 1..n",
+    "difficulty": "Easy",
+    "description": "Find missing number in 1..n given n-1 numbers.",
+    "constraints": [
+      "Array contains numbers 1..n with one missing"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,4,5], 5",
+        "output": "3"
+      }
+    ],
+    "functionName": "missingNumber",
+    "starterCode": "function missingNumber(arr, n) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          5
+        ],
+        "output": 3
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Factorial iterative and recursive",
+    "difficulty": "Easy",
+    "description": "Calculate factorial iteratively and recursively.",
+    "constraints": [
+      "Return 1 for factorial(0)"
+    ],
+    "examples": [
+      {
+        "input": "5",
+        "output": "120"
+      }
+    ],
+    "functionName": "factorial",
+    "starterCode": "function factorial(n) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          5
+        ],
+        "output": 120
+      },
+      {
+        "input": [
+          0
+        ],
+        "output": 1
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "isPrime and list primes up to n",
+    "difficulty": "Easy",
+    "description": "Implement isPrime and list primes up to n (simple).",
+    "constraints": [
+      "n >= 2"
+    ],
+    "examples": [
+      {
+        "input": "10",
+        "output": "[2,3,5,7]"
+      }
+    ],
+    "functionName": "listPrimes",
+    "starterCode": "function listPrimes(n) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          10
+        ],
+        "output": [
+          2,
+          3,
+          5,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Basic hash function for strings",
+    "difficulty": "Easy",
+    "description": "Implement a basic hash function for strings (demo only).",
+    "constraints": [
+      "Return integer hash"
+    ],
+    "examples": [
+      {
+        "input": "\"hello\"",
+        "output": "\"some integer\""
+      }
+    ],
+    "functionName": "hashString",
+    "starterCode": "function hashString(str) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "hello"
+        ],
+        "output": "number"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Intersection over multiple arrays",
+    "difficulty": "Easy",
+    "description": "Implement intersection over multiple arrays.",
+    "constraints": [
+      "Return unique values"
+    ],
+    "examples": [
+      {
+        "input": "[[1,2,3],[2,3,4],[2,5]]",
+        "output": "[2]"
+      }
+    ],
+    "functionName": "intersectionMultiple",
+    "starterCode": "function intersectionMultiple(arrays) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "output": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Difference(arrA, arrB)",
+    "difficulty": "Easy",
+    "description": "Implement difference(arrA, arrB).",
+    "constraints": [
+      "Return elements in arrA not in arrB"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3], [2,3]",
+        "output": "[1]"
+      }
+    ],
+    "functionName": "difference",
+    "starterCode": "function difference(arrA, arrB) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "output": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Zip and unzip arrays",
+    "difficulty": "Easy",
+    "description": "Implement zip and unzip arrays.",
+    "constraints": [
+      "Zip pairs by index"
+    ],
+    "examples": [
+      {
+        "input": "[1,2], [\"a\",\"b\"]",
+        "output": "[[1,\"a\"],[2,\"b\"]]"
+      }
+    ],
+    "functionName": "zip",
+    "starterCode": "function zip(arr1, arr2) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "output": [
+          [
+            1,
+            "a"
+          ],
+          [
+            2,
+            "b"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "take and drop utilities",
+    "difficulty": "Easy",
+    "description": "Implement take and drop utilities for arrays.",
+    "constraints": [
+      "take(n) returns first n elements",
+      "drop(n) removes first n elements"
+    ],
+    "examples": [
+      {
+        "input": "[1,2,3,4], take 2",
+        "output": "[1,2]"
+      },
+      {
+        "input": "[1,2,3,4], drop 2",
+        "output": "[3,4]"
+      }
+    ],
+    "functionName": "takeDrop",
+    "starterCode": "function take(arr, n) {\n  \n}\n\nfunction drop(arr, n) {\n  \n}\n\nfunction takeDrop(arr, n) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          2
+        ],
+        "output": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Safe get with optional chaining fallback",
+    "difficulty": "Easy",
+    "description": "Implement a safe get with optional chaining fallback.",
+    "constraints": [
+      "Return undefined if not found"
+    ],
+    "examples": [
+      {
+        "input": "({a:{b:2}}, \"a.b\")",
+        "output": "2"
+      }
+    ],
+    "functionName": "safeGet",
+    "starterCode": "function safeGet(obj, path) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": {
+              "b": 2
+            }
+          },
+          "a.b"
+        ],
+        "output": 2
+      },
+      {
+        "input": [
+          {},
+          "a.b"
+        ],
+        "output": "undefined"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Compare semantic versions",
+    "difficulty": "Easy",
+    "description": "Create a function to compare semantic versions (1.2.10 vs 1.2.9).",
+    "constraints": [
+      "Return 1 if v1>v2, -1 if v1<v2, 0 if equal"
+    ],
+    "examples": [
+      {
+        "input": "\"1.2.10\", \"1.2.9\"",
+        "output": "1"
+      }
+    ],
+    "functionName": "compareVersions",
+    "starterCode": "function compareVersions(v1, v2) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          "1.2.10",
+          "1.2.9"
+        ],
+        "output": 1
+      },
+      {
+        "input": [
+          "1.0.0",
+          "1.0.0"
+        ],
+        "output": 0
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "roundTo(n, decimals)",
+    "difficulty": "Easy",
+    "description": "Implement roundTo(n, decimals).",
+    "constraints": [
+      "Round correctly to decimals"
+    ],
+    "examples": [
+      {
+        "input": "(3.14159, 2)",
+        "output": "3.14"
+      }
+    ],
+    "functionName": "roundTo",
+    "starterCode": "function roundTo(n, decimals) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          3.14159,
+          2
+        ],
+        "output": 3.14
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "pick and omit object keys",
+    "difficulty": "Easy",
+    "description": "Implement pick(obj, keys) and omit(obj, keys).",
+    "constraints": [
+      "Return new object"
+    ],
+    "examples": [
+      {
+        "input": "({a:1,b:2,c:3}, [\"a\",\"c\"])",
+        "output": "{a:1,c:3}"
+      }
+    ],
+    "functionName": "pickOmit",
+    "starterCode": "function pick(obj, keys) {\n  \n}\n\nfunction omit(obj, keys) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          {
+            "a": 1,
+            "b": 2,
+            "c": 3
+          },
+          [
+            "a",
+            "c"
+          ]
+        ],
+        "output": {
+          "a": 1,
+          "c": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Merge unique values from multiple arrays into sorted array",
+    "difficulty": "Easy",
+    "description": "Merge unique values from multiple arrays into a sorted array.",
+    "constraints": [
+      "Remove duplicates",
+      "Return sorted output"
+    ],
+    "examples": [
+      {
+        "input": "[1,2], [2,3], [0,4]",
+        "output": "[0,1,2,3,4]"
+      }
+    ],
+    "functionName": "mergeUniqueSorted",
+    "starterCode": "function mergeUniqueSorted(...arrays) {\n  \n}",
+    "tests": [
+      {
+        "input": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "output": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  }
+]
